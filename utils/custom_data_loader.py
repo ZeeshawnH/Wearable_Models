@@ -2,13 +2,13 @@ import pandas as pd
 import scipy
 from scipy.io import loadmat
 
-from helper_code import find_all_challenge_files, get_frequency, get_labels, get_num_samples
-from utils import load_header_with_fallback, butterworth_elgendi_rpeak
+from .helper_code import find_all_challenge_files, get_frequency, get_labels, get_num_samples
+from .utils import load_header_with_fallback, butterworth_elgendi_rpeak
 from scipy.signal import resample
 
 import numpy as np
 import matplotlib.pyplot as plt
-from const import *
+from .const import *
 
 
 
